@@ -16,6 +16,11 @@ const routes = [
     path: '/demo',
     name: 'DemoPage',
     component: () => import('@/views/demo.vue')
+  },
+  {
+    path: '/demo-multiple',
+    name: 'DemoPageMultiple',
+    component: () => import('@/views/demo-multiple.vue')
   }
 ]
 
